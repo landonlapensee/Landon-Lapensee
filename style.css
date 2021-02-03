@@ -1,0 +1,107 @@
+h1 {
+  color: orange; 
+  font-size: 40px;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  line-height: 32px;
+}
+
+h2 {
+  font-family: 'Hachi Maru Pop', cursive;
+  line-height: 26px;
+}
+
+h3 {
+  color: orange;
+}
+
+body {
+  color: rgb(160, 154, 138);
+  background-color: #F7F9FC;
+  font-family: initial;
+  line-height: 16px;
+  text-align: center;
+}
+
+i {
+  color: rgb(41, 144, 76);
+  font-size: 40px;
+  padding: 5px;
+}
+
+i:hover {
+  color: black;
+}
+
+a {
+  transition-delay: 1s;
+}
+
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.orange-button {
+  color: rgb(223, 223, 223);
+  text-size-adjust: 20px;
+  background-color: orange; 
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  padding: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+} 
+
+.orange-button:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+#orange-button {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  display: inline-block;
+}
+
+.container {
+  display: block; 
+}
+
+.card {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  margin: 40px;
+  background-color: rgb(240, 237, 232);
+  box-shadow: 0px 5px 5px rgb(0 0 0 / 10%);
+}
+
+.circle {
+  border-radius: 50%;
+}
